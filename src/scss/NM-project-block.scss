@@ -1,0 +1,83 @@
+.nightMode {
+  .project-block {
+    background: #3c3838;
+    box-shadow: none;
+    border-radius: 40px;
+    margin: 40px 25%;
+    width: 50%;
+    padding: 30px 0;
+    transition: all 1000ms ease;
+
+    h3 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      transition: all 1s ease;
+    }
+
+    .mainPhoto {
+      max-width: 80%;
+      border-radius: 30px;
+      // margin-top: 30px;
+      margin: 30px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 10%;
+
+      .attend {
+        width: 40%;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #008fdf;
+        border-radius: 15px;
+        transition: background-color 1s ease;
+
+        .attendBtn {
+          margin: 0 auto;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        img {
+          max-width: 30px;
+          max-height: 30px;
+          background: inherit;
+        }
+
+        span {
+          background: inherit;
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+
+      .about {
+        width: 40%;
+        padding: 15px;
+        border-radius: 15px;
+        background: #07c252;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        transition: background-color 1s ease;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

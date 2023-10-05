@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import './nightMode.scss';
+@import './header.scss';
+@import './content-block.scss';
+@import './project-block.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fafafa;
+  transition: all 1000ms ease;
+}
+
+.project-header {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 22px;
+  transition: all 1000ms ease;
+}
+
+#info {
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    p {
+      text-align: center;
+    }
+  }
+}
+
+#moreInfo {
+  h3 {
+    color: #229fba;
+    padding: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
+  ul {
+    li {
+      font-size: 16px;
+    }
+  }
+}

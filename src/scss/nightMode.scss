@@ -1,0 +1,13 @@
+@import './NM-header.scss';
+@import './NM-content-block.scss';
+@import './NM-project-block.scss';
+
+.nightMode {
+  .project-header {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 1000ms ease;
+  }
+}
