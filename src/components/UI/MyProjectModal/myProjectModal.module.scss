@@ -1,0 +1,40 @@
+.myModal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  animation: appearance 1s;
+  transition: all 500ms ease;
+
+  &.active {
+    pointer-events: all;
+    opacity: 1;
+  }
+
+  .myModalContent {
+    padding: 4%;
+    border-radius: 52px;
+    background: #fff;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
