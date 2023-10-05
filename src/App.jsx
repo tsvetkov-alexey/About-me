@@ -1,9 +1,9 @@
 import Header from './components/Header';
 import Summary from './components/Summary';
-import ProjectBlock from './components/projectBlock';
+import ProjectBlock from './components/ProjectBlock';
 import Sign from './components/Sign';
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { fetchProjects } from './redux/slices/projects';
 import { Loader } from './components/UI/Loader';
 
